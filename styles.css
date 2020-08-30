@@ -1,0 +1,105 @@
+body{
+    padding:0;
+    margin: 0;
+    /* #ffffff */
+    background-color: #2ec4b6;
+    color: ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pageHead{
+    text-align: center;
+    color: black;
+    font-family: 'Do Hyeon', sans-serif;
+
+}
+.pageSub{
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+
+    
+}
+
+.hide{
+    display: none ;
+}
+.mainContainer{
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #cbf3f0;
+    box-shadow: 0 0 3px rgb(3, 21, 29) ;
+
+}
+.actionsBox{
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button{
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+.correct{
+    background-color: rgb(12, 248, 12);
+    color: white;
+    border:solid 2px rgb(12, 248, 12) ;
+}
+
+.wrong{
+    background-color: rgb(230, 70, 7);
+    color: white;
+    border:solid 2px rgb(230, 70, 7);
+}
+img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+
+}
+.imageBox{
+    padding: 10px;
+}
+.option{
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px auto;
+    border: solid 1px black;
+}
+.option:hover{
+    background-color: #2ec4b6;
+}
+.scoreBox{
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #cbf3f0;
+    box-shadow: 0 0 3px rgb(3, 21, 29) ;
+
+}
+.scoreBox p{
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+}
+.option{
+    /* border: solid 1px #2e4b6; */
+    border:none ;
+}
+#previous,#next{
+    background-color: #e94560;
+}
